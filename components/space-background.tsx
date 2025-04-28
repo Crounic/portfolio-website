@@ -12,7 +12,6 @@ export function SpaceBackground() {
     const ctx = canvas.getContext("2d")
     if (!ctx) return
 
-    // Set canvas size
     const handleResize = () => {
       canvas.width = window.innerWidth
       canvas.height = window.innerHeight
@@ -20,7 +19,6 @@ export function SpaceBackground() {
     handleResize()
     window.addEventListener("resize", handleResize)
 
-    // Create stars
     const stars: { x: number; y: number; radius: number; opacity: number; speed: number }[] = []
     for (let i = 0; i < 150; i++) {
       stars.push({
@@ -32,20 +30,17 @@ export function SpaceBackground() {
       })
     }
 
-    // Animation loop
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
       ctx.fillStyle = "#000"
       ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-      // Draw stars
       stars.forEach((star) => {
         ctx.beginPath()
         ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2)
         ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`
         ctx.fill()
 
-        // Move stars
         star.y += star.speed
         if (star.y > canvas.height) {
           star.y = 0

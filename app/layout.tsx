@@ -15,7 +15,6 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Shreif Abdalla | Portfolio",
   description: "Full Stack Web Developer specializing in MERN stack, React, Node.js, and more",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

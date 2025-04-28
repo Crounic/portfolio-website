@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button"
 import { Mail, Phone, Send } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
 
-// Add EmailJS imports
 import emailjs from "@emailjs/browser"
 
 export default function Contact() {
@@ -31,12 +30,12 @@ export default function Contact() {
     setIsSubmitting(true)
 
     try {
-      // Replace these with your actual EmailJS service, template, and public key
+     
       const result = await emailjs.sendForm(
-        "service_dnwmlac", // e.g., 'service_abc123'
-        "template_mtczki9", // e.g., 'template_xyz789'
+        "service_dnwmlac",
+        "template_mtczki9", 
         formRef.current!,
-        "IJGLwvxD27AExJi6e", // e.g., 'user_abcdefg123456'
+        "IJGLwvxD27AExJi6e",
       )
 
       if (result.text === "OK") {

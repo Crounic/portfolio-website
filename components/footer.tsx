@@ -50,7 +50,7 @@ export default function Footer() {
               asChild
               className="text-blue-400 hover:text-blue-300 hover:bg-blue-500/10"
             >
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/shreif-abdalla-b1370b245/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>

@@ -16,7 +16,6 @@ export default function Header() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10)
 
-      // Determine active section
       const sections = ["home", "about", "experience", "projects", "skills", "contact"]
       for (const section of sections.reverse()) {
         const element = document.getElementById(section)
