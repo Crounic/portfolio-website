@@ -152,8 +152,8 @@ export default function Contact() {
                       Name
                     </label>
                     <Input
-                      id="user_name"
-                      name="user_name"
+                      id="name"
+                      name="name"
                       required
                       className="bg-black/50 border-indigo-900/50 focus:border-indigo-500 text-white"
                     />
@@ -163,8 +163,8 @@ export default function Contact() {
                       Email
                     </label>
                     <Input
-                      id="user_email"
-                      name="user_email"
+                      id="email"
+                      name="email"
                       type="email"
                       required
                       className="bg-black/50 border-indigo-900/50 focus:border-indigo-500 text-white"
