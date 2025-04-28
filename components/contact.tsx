@@ -147,7 +147,7 @@ export default function Contact() {
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <label htmlFor="user_name" className="text-sm font-medium text-gray-300">
+                    <label htmlFor="name" className="text-sm font-medium text-gray-300">
                       Name
                     </label>
                     <Input
@@ -158,7 +158,7 @@ export default function Contact() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <label htmlFor="user_email" className="text-sm font-medium text-gray-300">
+                    <label htmlFor="email" className="text-sm font-medium text-gray-300">
                       Email
                     </label>
                     <Input
