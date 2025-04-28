@@ -60,7 +60,7 @@ export default function Footer() {
               asChild
               className="text-indigo-400 hover:text-indigo-300 hover:bg-indigo-500/10"
             >
-              <a href="mailto:Sharifabdelwadood@yahoo.com" aria-label="Email">
+              <a href="mailto:sheriff.a2029@gmail.com" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
