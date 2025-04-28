@@ -105,20 +105,22 @@ export default function Hero() {
             Welcome to my Portfolio
           </motion.div>
 
-          <h1 className="text-4xl md:text-7xl font-bold mb-6">
+          <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight">
             Hi, I'm{" "}
-            <span className="text-purple-400">
+            <span className="text-purple-400 relative inline-block">
               {text}
               <motion.span
+                aria-hidden
+                className="inline-block ml-1"
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
-                transition={{ duration: 0.5, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
-                className="absolute -right-4 top-0 text-purple-400"
+                transition={{ duration: 0.5, repeat: Infinity, repeatType: "reverse" }}
               >
                 |
               </motion.span>
             </span>
           </h1>
+
 
           <motion.h2
             className="text-xl md:text-2xl mb-8 text-purple-300"
