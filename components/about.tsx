@@ -48,7 +48,7 @@ export default function About() {
             className="md:col-span-1 flex justify-center"
           >
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-purple-500 shadow-lg shadow-purple-500/20">
-              <Image src="/placeholder.svg?height=300&width=300" alt="Shreif Abdalla" fill className="object-cover" />
+              <Image src="/shreif.jpg" alt="Shreif Abdalla" fill className="object-cover" />
             </div>
           </motion.div>
 

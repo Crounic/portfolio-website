@@ -30,7 +30,7 @@ export default function Projects() {
         "Utilized Git for version control and collaborative development.",
         "Implemented error handling mechanisms for various scenarios during image processing.",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/dnd.png?height=300&width=500",
     },
     {
       id: "discord",
@@ -44,7 +44,7 @@ export default function Projects() {
         "Implemented user-friendly commands for controlling playback, skipping tracks, adjusting volume, and requesting songs.",
         "Employed asynchronous programming principles to optimize the bot's responsiveness during heavy usage.",
       ],
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/discord.jpg?height=300&width=500",
     },
   ]
 
