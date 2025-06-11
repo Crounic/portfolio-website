@@ -39,7 +39,7 @@ export default function Experience() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
           viewport={{ once: true }}
           className="max-w-3xl mx-auto"
         >
@@ -50,6 +50,8 @@ export default function Experience() {
                 <div>
                   <CardTitle className="text-blue-400">Full Stack Web Developer Intern</CardTitle>
                   <p className="text-gray-300">Civonus Inc.</p>
+                <p className="text-sm text-gray-400">Stratford, PE, Canada</p>
+
                 </div>
                 <p className="text-sm text-gray-400">June 2024 - September 2024</p>
               </div>
@@ -81,6 +83,63 @@ export default function Experience() {
                     </Badge>
                   ),
                 )}
+              </div>
+            </CardContent>
+          </Card>
+          <Card className="mb-8 bg-black/40 border-blue-900/50 backdrop-blur-sm overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-purple-600" />
+            <CardHeader>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
+                <div>
+                  <CardTitle className="text-blue-400">IT Support Analyst</CardTitle>
+                  <p className="text-gray-300">Silverado Gayrimenkul Real Estate</p>
+                  <p className="text-sm text-gray-400">Istanbul, Turkey</p>
+                </div>
+                <p className="text-sm text-gray-400">September 2021 - November 2022</p>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <ul className="space-y-2 list-disc list-inside text-gray-300">
+                <li>
+                  Resolved Windows, Office 365, VPN and VoIP incidents for 30+ users, sustaining a 95% same-day fix rate
+                  and reducing Tier-3 escalations by 20%.
+                </li>
+                <li>
+                  Streamlined device onboarding in partnership with HR and networking teams: automated imaging, domain
+                  joins and BitLocker via MDT, cutting deployment turnaround 50%.
+                </li>
+                <li>
+                  Managed AD user lifecycle and group policies; scripted bulk tasks in PowerShell, saving 4 hours
+                  weekly.
+                </li>
+                <li>
+                  Owned asset logistics – imaged, packaged and shipped 120+ laptop kits across three countries; updated
+                  inventory in Jira Assets for audit accuracy.
+                </li>
+                <li>Authored 20+ Confluence KB articles adopted by Tier-1 agents, lowering repeat tickets 18%.</li>
+              </ul>
+
+              <div className="mt-6 flex flex-wrap gap-2">
+                {[
+                  "Windows",
+                  "Office 365",
+                  "VPN",
+                  "VoIP",
+                  "Active Directory",
+                  "PowerShell",
+                  "MDT",
+                  "BitLocker",
+                  "Jira",
+                  "Confluence",
+                ].map((tech, index) => (
+                  <Badge
+                    key={index}
+                    variant="outline"
+                    className="bg-blue-900/30 text-blue-200 border-blue-500/50 hover:bg-blue-800/40"
+                  >
+                    {tech}
+                  </Badge>
+                ))}
               </div>
             </CardContent>
           </Card>
