@@ -95,7 +95,7 @@ export default function Experience() {
                   <p className="text-gray-300">Silverado Gayrimenkul Real Estate</p>
                   <p className="text-sm text-gray-400">Istanbul, Turkey</p>
                 </div>
-                <p className="text-sm text-gray-400">September 2021 - November 2022</p>
+                <p className="text-sm text-gray-400">September 2020 - December 2021</p>
               </div>
             </CardHeader>
             <CardContent>
