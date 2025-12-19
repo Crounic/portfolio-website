@@ -58,27 +58,27 @@ export default function Experience() {
             <CardContent>
               <ul className="space-y-2 list-disc list-inside text-gray-300">
                 <li>
-                  Built and maintained backend services using Node.js with TypeScript, following clean API and layered-service patterns.
+                  Built and maintained backend services using Java with Spring Boot, following clean architecture and SOLID principles.
                 </li>
                 <li>
-                  Implemented real-time features using WebSockets, including authenticated connections and message broadcasting.
+                  Implemented real-time features using WebSockets and message queues for authenticated connections and event broadcasting.
                 </li>
                 <li>
-                  Worked with PostgreSQL for schema design and migrations, focusing on data integrity and query performance.
+                  Worked with PostgreSQL for database design, schema migrations, and query optimization focusing on data integrity and performance.
                 </li>
                 <li>
-                  Contributed to containerized development workflows with Docker and collaborated through Git-based reviews.
+                  Contributed to containerized development workflows with Docker and collaborated through Git-based code reviews.
                 </li>
                 <li>
-                  Designed and optimized database queries for efficient data retrieval and improved application performance.
+                  Designed and optimized complex SQL queries and implemented caching strategies to improve application performance.
                 </li>
                 <li>
-                  Participated in code reviews, testing workflows, and deployment processes to ensure code quality and reliability.
+                  Participated in code reviews, unit testing, integration testing, and deployment processes to ensure code quality and reliability.
                 </li>
               </ul>
 
               <div className="mt-6 flex flex-wrap gap-2">
-                {["Node.js", "TypeScript", "PostgreSQL", "WebSockets", "Docker", "Git", "REST APIs", "Express"].map(
+                {["Java", "Spring Boot", "PostgreSQL", "WebSockets", "Docker", "Git", "REST APIs", "Maven"].map(
                   (tech, index) => (
                     <Badge
                       key={index}
