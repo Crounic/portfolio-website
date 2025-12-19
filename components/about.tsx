@@ -83,10 +83,10 @@ export default function About() {
                   <div>
                     <h3 className="text-2xl font-semibold mb-2 text-purple-400">About</h3>
                     <p className="text-gray-300">
-                      I am a Computer Science student and Full Stack Web Developer with experience in the MERN stack.
-                      I'm passionate about creating responsive, user-friendly web applications and continuously
-                      expanding my technical skills. With a strong foundation in both front-end and back-end
-                      development, I strive to build efficient, scalable solutions that meet user needs.
+                      I am a Software Engineer with a strong foundation in full-stack web development and backend systems.
+                      I specialize in building scalable applications using Java, TypeScript, React, and Node.js with expertise in PostgreSQL and cloud technologies.
+                      Passionate about clean code, system design, and creating efficient solutions that solve real-world problems.
+                      I thrive in collaborative Agile environments and continuously push my technical boundaries.
                     </p>
                   </div>
                 </div>

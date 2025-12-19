@@ -46,6 +46,34 @@ export default function Projects() {
       ],
       image: "/discord.jpg?height=300&width=500",
     },
+    {
+      id: "islands",
+      title: "Islands of Hex",
+      description:
+        "A two-player hex grid game backend implemented in Java with complete game logic, state management, and board evaluation.",
+      technologies: ["Java", "Game Logic", "Algorithms", "State Management"],
+      details: [
+        "Built the backend for a two-player hex grid game with full play validation and end-state detection.",
+        "Designed modular game logic and tested on large board sizes (up to 2500x2500) for correctness and robustness.",
+        "Implemented efficient algorithms for board evaluation and game state management.",
+        "Created score calculation system and comprehensive move validation logic.",
+      ],
+      image: "/images/example_board.png?height=300&width=500",
+    },
+    {
+      id: "routing",
+      title: "Link-State Routing Simulation",
+      description:
+        "A link-state routing simulator implemented in Java using Dijkstra-based shortest path algorithms to compute forwarding decisions.",
+      technologies: ["Java", "Dijkstra's Algorithm", "Networking", "Packet Encoding"],
+      details: [
+        "Implemented link-state routing behavior in Java using Dijkstra-based shortest paths to compute forwarding decisions.",
+        "Worked with packet encoding/decoding and routing daemons to validate delivery across different topologies.",
+        "Documented observed paths and performed manual correctness verification across multiple configurations.",
+        "Tested the routing simulator with various network topologies to ensure correct path computation and packet delivery.",
+      ],
+      image: "/images/as3.png?height=300&width=500",
+    },
   ]
 
   return (
