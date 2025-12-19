@@ -195,7 +195,7 @@ export default function Hero() {
               asChild
               className="text-purple-400 hover:text-purple-300 hover:bg-purple-500/10"
             >
-              <a href="mailto:sheriff.a2029@gmail.com" aria-label="Email">
+              <a href="mailto:shreifabdalla877@gmail.com" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>

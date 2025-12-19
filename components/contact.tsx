@@ -98,8 +98,8 @@ export default function Contact() {
                   Email
                 </CardTitle>
                 <CardDescription className="text-gray-300">
-                  <a href="mailto:sheriff.a2029@gmail.com" className="hover:text-blue-400 transition-colors">
-                  sheriff.a2029@gmail.com
+                  <a href="mailto:shreifabdalla877@gmail.com" className="hover:text-blue-400 transition-colors">
+                  shreifabdalla877@gmail.com
                   </a>
                 </CardDescription>
               </CardHeader>
