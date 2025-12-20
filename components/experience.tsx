@@ -58,7 +58,7 @@ export default function Experience() {
             <CardContent>
               <ul className="space-y-2 list-disc list-inside text-gray-300">
                 <li>
-                  Built and maintained backend services using both Node.js with TypeScript and Java with Spring Boot, following clean API and layered-service patterns.
+                  Built backend services using both Node.js with TypeScript and Java with Spring Boot, strategically selecting each technology based on service requirements to optimize performance and scalability across a unified microservices architecture.
                 </li>
                 <li>
                   Implemented real-time features using WebSockets, including authenticated connections and message broadcasting.
