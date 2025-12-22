@@ -150,7 +150,7 @@ export default function Experience() {
                 <div>
                   <CardTitle className="text-blue-400">Software Engineering Intern</CardTitle>
                   <p className="text-gray-300">Civonus Inc.</p>
-                  <p className="text-sm text-gray-400">Remote - Charlottetown, PE</p>
+                  <p className="text-sm text-gray-400">Remote - Stratford, PE</p>
                 </div>
                 <p className="text-sm text-gray-400">June 2024 - September 2024</p>
               </div>
